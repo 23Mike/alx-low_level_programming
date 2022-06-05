@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - print string in the function
+ * main - print string in the write function
  * Description: "and that piece of art is useful"- Dora korpar, 2015-10-19"
  * Return: 0
  */
