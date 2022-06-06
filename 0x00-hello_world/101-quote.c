@@ -1,16 +1,13 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - print string in the write function
- * Description: "and that piece of art is useful"- Dora korpar, 2015-10-19"
- * Return: 0
+ * main - Entry point
+ * Return: Always 1 (success)
  */
 int main(void)
 {
+char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-printf("and that piece of art is useful\n");
-
-printf("-Dora korpar, 2015-10-19\n");
-
-return (0);
+write(2, str1, 59);
+return (1);
 }
