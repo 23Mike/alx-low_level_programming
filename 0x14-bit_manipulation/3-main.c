@@ -14,7 +14,7 @@ int main(void)
 	set_bit(&n, 5);
 	printf("%lu\n", n);
 	n = 0;
-	set_bin(&n, 10);
+	set_bit(&n, 10);
 	printf("%lu\n", n);
 	n = 98;
 	set_bit(&n, 0);
